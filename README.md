@@ -38,11 +38,11 @@ You can find instructions to download webpack using npm here: https://www.npmjs.
 Windows users may need to change the package.json file configure line within the project before following the rest of the installation instructions:
 	
 	'"configure": "mkdir release & xcopy /s assets release",'
-
+**因为是windows，所以把package.json里的configure属性改为上面这行**
 
 Installation
 ------------
-
+**在此目录下用git bash运行下面指令**
 First you should clone the repository. Then in the directory of the repository run:
 
     `npm install`
